@@ -12,7 +12,7 @@ public class Loing {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Desktop\\driver\\chromedriver_win32 (1)\\chromedriver.exe");
 
 		WebDriver bo=new ChromeDriver();
-		
+		// this is code
 		bo.get("http://apps.qaplanet.in/hrm/login.php");
 		bo.findElement(By.name("txtUserName")).sendKeys("qaplanet1");
 		bo.findElement(By.name("txtPassword")).sendKeys("lab1");
